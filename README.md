@@ -40,4 +40,4 @@ streamlit run app.py
 - **Responsive UI**: A styled dashboard displaying dynamic warning colors based on prediction confidence.
 
 ## Demonstration
-*(Insert LinkedIn post/demo video link here once recorded)*
+LinkedIn: https://lnkd.in/p/gqtvHr_q
