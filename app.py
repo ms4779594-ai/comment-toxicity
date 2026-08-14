@@ -117,7 +117,8 @@ with tab2:
                             status_text.text(f"Processed {i + 1}/{total} comments...")
                             
                     for label in predictor.labels:
-                        df[label] = predictions[label]
+                        # Convert float probabilities to formatted percentage strings
+                        df[label] = [f"{p:.2%}" for p in predictions[label]]
                         
                     st.success("Bulk processing complete!")
                     st.dataframe(df.head(10))
